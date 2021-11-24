@@ -1,0 +1,18 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var user_js_1 = require("./user.js");
+var profile_js_1 = require("./profile.js");
+var movie_js_1 = require("./movie.js");
+var login1 = new user_js_1.User("marcos", "abc1234", 23940823983);
+console.log(login1);
+var profile1 = new profile_js_1.Profile("marcos", 34, []);
+console.log(profile1);
+var profile2 = new profile_js_1.Profile("josé", 17, []);
+console.log(profile2);
+var profile3 = new profile_js_1.Profile("maria", 22, []);
+console.log(profile3);
+var filme1 = new movie_js_1.Movie(233, "Star Wars", 2018, "drama");
+var filme2 = new movie_js_1.Movie(236, "Petz", 2014, "comedy");
+var filme3 = new movie_js_1.Movie(293, "The Godfather", 1992, "drama");
+var filme4 = new movie_js_1.Movie(302, "True Lies", 2018, "action");
+console.log(filme1, filme2, filme3, filme4);
